@@ -94,6 +94,7 @@ if (is_null(filter_input(INPUT_GET, 'page'))) {
 if ($fsc_error) {
     die();
 }
+                //MARICO EL QUE LO LEA
 
 if ($fsc->template) {
     /// configuramos rain.tpl
